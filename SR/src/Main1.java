@@ -8,7 +8,11 @@ class Account{
 		this.accountBalance=accountBalance;
 	}
 	void withdraw(int amount) {
+		if(accountBalance>amount) {
 		this.accountBalance-=amount;
+	}else {
+		System.out.print("Insufficient Balance");
+	}  
 	}
 	void deposit(int amount) {
 		this.accountBalance+=amount;
