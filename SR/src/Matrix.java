@@ -21,9 +21,9 @@ public class Matrix {
 			for(int j=0;j<c;j++) 
 			{
 				System.out.print(mat[i][j]+" "); 
+				System.out.println("Newly added statement!!");
 	}
-			System.out.println("");
-
+	
 }
 	}
 }
