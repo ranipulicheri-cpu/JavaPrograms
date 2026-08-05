@@ -3,12 +3,7 @@ class Employee{
 	String empName;
 	double empSalary;
 	Employee(){}
-	/*void setEmpDetails(int num,String name,double sal)
-	{
-		this.empNum=empNum;
-		this.empName=empName;
-		this.empSalary=empSalary;
-	}*/
+	
 	Employee(int empNum,String empName){
 		this.empNum=empNum;
 		this.empName=empName;

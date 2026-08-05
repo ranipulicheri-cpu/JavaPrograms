@@ -1,7 +1,7 @@
 class Student{
 	int rollNum,mark1,mark2,mark3,totalMarks;
 	String stuName;
-	void setStuDetails(int rollNum,String stuName,int mark1,int mark2,int mark3) {
+	Student(int rollNum,String stuName,int mark1,int mark2,int mark3) {
 		this.rollNum=rollNum;
 		this.stuName=stuName;
 		this.mark1=mark1;
@@ -19,8 +19,7 @@ class Student{
 }
 public class StudentDemo {
 	public static void main(String[] args) {
-		Student s1=new Student();
-		s1.setStuDetails(12,"Rani",95,97,98);
+		Student s1=new Student(12,"Rani",95,97,98);
 		s1.calculateTotal();
 		s1.displayStuDetails();
 		
