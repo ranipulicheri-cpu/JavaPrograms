@@ -2,7 +2,14 @@ class Account{
 	int accountNo;
 	String accountType;
 	int accountBalance;
-	void setAccountDetails(int accountNo,String accountType,int accountBalance) {
+	//METHOD
+	/*void setAccountDetails(int accountNo,String accountType,int accountBalance) {
+		this.accountNo=accountNo;
+		this.accountType=accountType;
+		this.accountBalance=accountBalance;
+	}*/
+	//Constructor
+	Account(int accountNo,String accountType,int accountBalance){
 		this.accountNo=accountNo;
 		this.accountType=accountType;
 		this.accountBalance=accountBalance;
@@ -23,8 +30,7 @@ class Account{
 }
 public class Main1 {
 	public static void main(String[] args) {
-		Account ac=new Account();
-		ac.setAccountDetails(4257234, "savings", 300000000);
+		Account ac=new Account(4563728,"Savings",300000000);
 		ac.withdraw(10000);
 		ac.deposit(9000);
 		ac.dispAccountDetails();
