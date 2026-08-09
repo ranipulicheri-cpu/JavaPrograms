@@ -1,6 +1,7 @@
+
 class Outer{
-	int m=100;
-	class Inner{
+	static int m=100;
+	static class Inner{
 		void doStuff() {
 			System.out.println("m = "+m);
 		}
@@ -9,7 +10,7 @@ class Outer{
 }
 public class InnerDemo {
 	public static void main(String[] args) {
-		Outer.Inner innerobj=new Outer().new Inner();
+		Outer.Inner innerobj=new Outer.Inner();
 		innerobj.doStuff();
 		
 	}
