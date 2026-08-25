@@ -1,4 +1,4 @@
-package pack1;
+
 abstract class shape {
 	String color;
 	abstract double area();

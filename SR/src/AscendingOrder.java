@@ -1,4 +1,4 @@
-package pack1;
+
 import java.util.Scanner;
 public class AscendingOrder {
 	public static void main(String[] args) {
@@ -15,6 +15,11 @@ public class AscendingOrder {
 			if(numbers[i]>numbers[i+1]) {
 				isAscending=false;
 			}
+		}
+		if(isAscending) {
+			System.out.println("The array is sorted in ascending order");
+		}else {
+			System.out.println("The array is not sorted in ascending order");
 		}
 	}
 
