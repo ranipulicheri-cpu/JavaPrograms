@@ -14,9 +14,9 @@ public class RunTimeExceptionDemo {
 		//NegativeArraySizeException
 		//int[] n = new int[-5];
 		//NumberFormatException
-		String s = "xx";
+		/*String s = "xx";
 		 int n = Integer.parseInt(s);
-		 
+		 */
 		//NullPointerException
 		/*String s= null;
 		 System.out.println(s.equals("Hello"));
